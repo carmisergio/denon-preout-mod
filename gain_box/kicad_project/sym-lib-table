@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "gain_box")(type "KiCad")(uri "${KIPRJMOD}/gain_box.kicad_sym")(options "")(descr ""))
+)
