@@ -1,6 +1,6 @@
 #include <avr/io.h>
 
-#ifdef __AVR_ATmega328P__
+#if defined(__AVR_ATmega328P__)
 
 #include "gpio.hpp"
 

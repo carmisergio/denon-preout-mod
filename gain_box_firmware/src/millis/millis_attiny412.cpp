@@ -2,8 +2,10 @@
 
 #include "millis.hpp"
 
-#define PRESCALER 64
-#define PRESCALER_FLAGS _BV(CS01) | _BV(CS00)
+#if defined(__AVR_ATtiny412__)
+
+#define PRESCALER 8
+#define PRESCALER_FLAGS TCA_SINGLE_CLKSEL_DIV8_gc
 
 // Counter variable
 uint32_t millis_count;
@@ -12,20 +14,17 @@ void millis_init()
 {
     millis_count = 0;
 
-    // CTC mode, Output compare A interrupt
-    TCCR0A = _BV(WGM01);
-
     // Reset timer count
-    TCNT0 = 0;
+    TCA0_SINGLE_CNT = 0;
 
     // Set compare count so 1 compare per ms
-    OCR0A = (F_CPU / PRESCALER) / 1000 - 1;
-
-    // Set prescaler
-    TCCR0B = PRESCALER_FLAGS;
+    TCA0_SINGLE_PER = (F_CPU / PRESCALER) / 1000 - 1;
 
     // Enable interrupts
-    TIMSK0 = _BV(OCIE0A);
+    TCA0_SINGLE_INTCTRL = TCA_SINGLE_OVF_bm;
+
+    // Normal mode
+    TCA0_SINGLE_CTRLA = TCA_SINGLE_ENABLE_bm | PRESCALER_FLAGS;
 
     // Enable global interrupts
     sei();
@@ -43,7 +42,9 @@ uint32_t millis()
     return val;
 }
 
-ISR(TIMER0_COMPA_vect)
+ISR(TCA0_OVF_vect)
 {
     millis_count++;
 }
+
+#endif
