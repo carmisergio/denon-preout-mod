@@ -237,6 +237,140 @@
 				)
 			)
 		)
+		(symbol "Connector:Screw_Terminal_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -5000,6 +5134,138 @@
 				)
 			)
 		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -5733,6 +5999,12 @@
 		(uuid "a702a4d8-1a05-4677-84f7-2141ca4a0f0a")
 	)
 	(junction
+		(at 358.14 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab203921-6c8e-4abe-90df-879997df8468")
+	)
+	(junction
 		(at 69.85 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5899,10 +6171,6 @@
 		(uuid "3f7d8e3d-aaac-452e-ad29-712ea73ff36b")
 	)
 	(no_connect
-		(at 372.11 246.38)
-		(uuid "6ceac39d-2df2-4408-8f08-96383624e8b5")
-	)
-	(no_connect
 		(at 266.7 45.72)
 		(uuid "7c9a751b-d729-411b-8b4d-def30104c60f")
 	)
@@ -5915,12 +6183,8 @@
 		(uuid "8bdc480b-b3f5-4c39-bf64-749cfbfb2a69")
 	)
 	(no_connect
-		(at 363.22 246.38)
-		(uuid "ade07fc4-da85-4546-9cb6-929e122b15a8")
-	)
-	(no_connect
 		(at 381 246.38)
-		(uuid "df98b279-4488-4e11-9877-622e704bd3b4")
+		(uuid "ade07fc4-da85-4546-9cb6-929e122b15a8")
 	)
 	(wire
 		(pts
@@ -6344,6 +6608,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 236.22) (xy 358.14 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327b4a9d-631e-4fd2-aff0-219194e76cca")
+	)
+	(wire
+		(pts
 			(xy 143.51 87.63) (xy 138.43 87.63)
 		)
 		(stroke
@@ -6731,6 +7005,16 @@
 			(type default)
 		)
 		(uuid "4d94d1e3-0d4e-4819-a857-5b31f39db133")
+	)
+	(wire
+		(pts
+			(xy 358.14 236.22) (xy 367.03 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dae759a-9019-403e-8f1b-65460969f988")
 	)
 	(wire
 		(pts
@@ -7244,6 +7528,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 236.22) (xy 358.14 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70952760-801e-4f01-85a3-f07d76533190")
+	)
+	(wire
+		(pts
 			(xy 367.03 77.47) (xy 369.57 77.47)
 		)
 		(stroke
@@ -7251,6 +7545,16 @@
 			(type default)
 		)
 		(uuid "7187c68f-3ea8-4ea9-9db3-0568d045bcd8")
+	)
+	(wire
+		(pts
+			(xy 367.03 236.22) (xy 367.03 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7229f425-32db-46a4-9466-1782a2e113a3")
 	)
 	(wire
 		(pts
@@ -7631,6 +7935,16 @@
 			(type default)
 		)
 		(uuid "977d98eb-34f2-4506-96c5-5e7b032e0581")
+	)
+	(wire
+		(pts
+			(xy 349.25 234.95) (xy 349.25 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9808b893-1e8b-4498-a924-f7571e5e1eb6")
 	)
 	(wire
 		(pts
@@ -8701,6 +9015,16 @@
 			(type default)
 		)
 		(uuid "fea7636b-ce3f-4028-8808-b4a0e3300034")
+	)
+	(wire
+		(pts
+			(xy 358.14 236.22) (xy 358.14 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecd8fb6-5c9d-42de-8c33-933e3ac4c544")
 	)
 	(rectangle
 		(start 17.78 104.14)
@@ -10311,6 +10635,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 358.14 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "130931ea-81b3-4877-9853-c536a204c3a2")
+		(property "Reference" "#PWR01"
+			(at 358.14 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 358.14 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 358.14 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53270616-c90b-4dd5-8ec8-2b03de3298e6")
+		)
+		(instances
+			(project ""
+				(path "/9bac93c0-f586-4b1c-8172-4868afdb9131"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 194.31 39.37 0)
 		(mirror y)
@@ -10813,7 +11203,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 372.11 243.84 0)
+		(at 358.14 232.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10822,7 +11212,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d70218f-bb99-4c4e-a71f-bf39f228d8d7")
 		(property "Reference" "H2"
-			(at 374.65 242.5699 0)
+			(at 360.68 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +11221,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 374.65 243.8399 0)
+			(at 360.68 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,7 +11231,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 372.11 243.84 0)
+			(at 358.14 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +11240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 243.84 0)
+			(at 358.14 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +11249,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 372.11 243.84 0)
+			(at 358.14 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12866,7 +13256,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 381 243.84 0)
+		(at 367.03 232.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12875,7 +13265,7 @@
 		(fields_autoplaced yes)
 		(uuid "61f6d285-9ec5-427c-9f3a-c4f826f027a8")
 		(property "Reference" "H3"
-			(at 383.54 242.5699 0)
+			(at 369.57 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12884,7 +13274,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 383.54 243.8399 0)
+			(at 369.57 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12894,7 +13284,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 381 243.84 0)
+			(at 367.03 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12903,7 +13293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 243.84 0)
+			(at 367.03 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,7 +13302,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 381 243.84 0)
+			(at 367.03 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14201,7 +14591,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 363.22 243.84 0)
+		(at 381 243.84 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14210,7 +14600,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c0496bc-7625-46ae-9630-95e8ab23c3bc")
 		(property "Reference" "H1"
-			(at 365.76 242.5699 0)
+			(at 383.54 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14219,7 +14609,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 365.76 243.8399 0)
+			(at 383.54 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14229,7 +14619,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 363.22 243.84 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14238,7 +14628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 243.84 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14247,7 +14637,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 363.22 243.84 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15705,6 +16095,74 @@
 			(project "gain_box"
 				(path "/9bac93c0-f586-4b1c-8172-4868afdb9131"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 349.25 229.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c728498b-e84a-42f0-8c92-e56490ceee1a")
+		(property "Reference" "H6"
+			(at 351.79 229.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 350.5199 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project_lib:KEYSTONE_7760"
+			(at 349.25 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 349.25 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6381aeb1-6959-4a99-8e34-ec0ecff435f8")
+		)
+		(instances
+			(project ""
+				(path "/9bac93c0-f586-4b1c-8172-4868afdb9131"
+					(reference "H6")
 					(unit 1)
 				)
 			)
