@@ -2680,7 +2680,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM7809_TO220"
+		(symbol "Regulator_Linear:LM7812_TO220"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2695,7 +2695,7 @@
 					)
 				)
 			)
-			(property "Value" "LM7809_TO220"
+			(property "Value" "LM7812_TO220"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -2723,7 +2723,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220"
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2750,7 +2750,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM7809_TO220_0_1"
+			(symbol "LM7812_TO220_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
@@ -2763,7 +2763,7 @@
 					)
 				)
 			)
-			(symbol "LM7809_TO220_1_1"
+			(symbol "LM7812_TO220_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2820,7 +2820,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM7909_TO220"
+		(symbol "Regulator_Linear:LM7912_TO220"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2835,7 +2835,7 @@
 					)
 				)
 			)
-			(property "Value" "LM7909_TO220"
+			(property "Value" "LM7912_TO220"
 				(at 0 -3.175 0)
 				(effects
 					(font
@@ -2854,7 +2854,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7900-D.PDF"
+			(property "Datasheet" "hhttps://www.onsemi.com/pub/Collateral/MC7900-D.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2863,7 +2863,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Negative 1A 35V Linear Regulator, Fixed Output 9V, TO-220"
+			(property "Description" "Negative 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2890,7 +2890,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM7909_TO220_0_1"
+			(symbol "LM7912_TO220_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -1.905)
@@ -2903,7 +2903,7 @@
 					)
 				)
 			)
-			(symbol "LM7909_TO220_1_1"
+			(symbol "LM7912_TO220_1_1"
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -3777,622 +3777,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "gain_box:70042K"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "T"
-				(at -5.08 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "70042K"
-				(at -5.08 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "70042K:XFMR_70042K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Nuvotem"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "26.0 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "11/20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/70041K/Nuvotem+Talema/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "70042K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nNuvotem Talema 115V ac, 230V ac, 2 x 12V ac Toroidal Transformer, 10VA 2 Output\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Talema"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "70042K_0_0"
-				(circle
-					(center -3.048 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.048 8.89)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -10.16)
-					(mid -1.2755 -8.89)
-					(end -2.54 -7.62)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -7.62)
-					(mid -1.2755 -6.35)
-					(end -2.54 -5.08)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -5.08)
-					(mid -1.2755 -3.81)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
-					(mid -1.2755 3.81)
-					(end -2.54 5.08)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 5.08)
-					(mid -1.2755 6.35)
-					(end -2.54 7.62)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 7.62)
-					(mid -1.2755 8.89)
-					(end -2.54 10.16)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -10.16) (xy -5.08 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 10.16) (xy -5.08 10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 10.16) (xy -0.635 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 10.16) (xy 0.635 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 10.16) (xy 5.08 10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -7.62)
-					(mid 1.2755 -8.89)
-					(end 2.54 -10.16)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -5.08)
-					(mid 1.2755 -6.35)
-					(end 2.54 -7.62)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.54)
-					(mid 1.2755 -3.81)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 5.08)
-					(mid 1.2755 3.81)
-					(end 2.54 2.54)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 7.62)
-					(mid 1.2755 6.35)
-					(end 2.54 5.08)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 8.89)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 10.16)
-					(mid 1.2755 8.89)
-					(end 2.54 7.62)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "PRI"
-					(at -6.35 10.922 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "SEC"
-					(at 3.302 10.922 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 10.16 10.16 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -10.16 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -10.16 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 10.16 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5685,6 +5069,620 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "project_lib:TRANS_Talema_700xxK"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T1"
+				(at 0.4014 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TRANS_Talema_700xxK"
+				(at 0.4014 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_lib:XFMR_70042K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Nuvotem"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "26.0 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "11/20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/70041K/Nuvotem+Talema/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "70042K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nNuvotem Talema 115V ac, 230V ac, 2 x 12V ac Toroidal Transformer, 10VA 2 Output\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Talema"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TRANS_Talema_700xxK_0_0"
+				(circle
+					(center -3.048 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.048 8.89)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -10.16)
+					(mid -1.2755 -8.89)
+					(end -2.54 -7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -7.62)
+					(mid -1.2755 -6.35)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -5.08)
+					(mid -1.2755 -3.81)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.2755 3.81)
+					(end -2.54 5.08)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 5.08)
+					(mid -1.2755 6.35)
+					(end -2.54 7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 7.62)
+					(mid -1.2755 8.89)
+					(end -2.54 10.16)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 10.16) (xy -5.08 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 10.16) (xy -0.635 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 10.16) (xy 0.635 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -7.62)
+					(mid 1.2755 -8.89)
+					(end 2.54 -10.16)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -5.08)
+					(mid 1.2755 -6.35)
+					(end 2.54 -7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.54)
+					(mid 1.2755 -3.81)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 1.2755 3.81)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 7.62)
+					(mid 1.2755 6.35)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 8.89)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 10.16)
+					(mid 1.2755 8.89)
+					(end 2.54 7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "PRI"
+					(at -5.588 10.922 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "SEC"
+					(at 2.032 10.922 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -13805,7 +13803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM7909_TO220")
+		(lib_id "Regulator_Linear:LM7912_TO220")
 		(at 147.32 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13822,7 +13820,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7909"
+		(property "Value" "LM7912"
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -13840,7 +13838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7900-D.PDF"
+		(property "Datasheet" "hhttps://www.onsemi.com/pub/Collateral/MC7900-D.PDF"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -13849,7 +13847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative 1A 35V Linear Regulator, Fixed Output 9V, TO-220"
+		(property "Description" "Negative 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -17476,7 +17474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM7809_TO220")
+		(lib_id "Regulator_Linear:LM7812_TO220")
 		(at 147.32 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17493,7 +17491,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7809"
+		(property "Value" "LM7812"
 			(at 147.32 38.1 0)
 			(effects
 				(font
@@ -17520,7 +17518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220"
+		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
 			(at 147.32 41.91 0)
 			(effects
 				(font
@@ -17838,7 +17836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "gain_box:70042K")
+		(lib_id "project_lib:TRANS_Talema_700xxK")
 		(at 58.42 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17848,22 +17846,22 @@
 		(fields_autoplaced yes)
 		(uuid "f93c310a-7835-4d76-b95b-281ef1a3c17a")
 		(property "Reference" "T1"
-			(at 58.8214 41.91 0)
+			(at 58.5674 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "70042K"
-			(at 58.8214 44.45 0)
+		(property "Value" "70023K"
+			(at 58.5674 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "project_lib:XFMR_70042K"
+		(property "Footprint" "project_lib:TRANS_Talema_70023K"
 			(at 58.42 59.69 0)
 			(effects
 				(font
