@@ -11,11 +11,11 @@
 constexpr Pin IN_AC_PULSE_PIN = Pin::P_PD3;
 constexpr Pin IN_EXTTRIG_PIN = Pin::P_PD4;
 constexpr Pin OUT_AC_EN_PIN = Pin::P_PB3;
-constexpr Pin OUT_TRIG_PIN = Pin::P_PB4;
-constexpr Pin OUT_UNMUTE_PIN = Pin::P_PB5;
+constexpr Pin OUT_TRIG_PIN = Pin::P_PB5;
+constexpr Pin OUT_UNMUTE_PIN = Pin::P_PB4;
 #elif defined(__AVR_ATtiny412__)
-constexpr Pin IN_AC_PULSE_PIN = Pin::P_PA1;
-constexpr Pin IN_EXTTRIG_PIN = Pin::P_PA2;
+constexpr Pin IN_AC_PULSE_PIN = Pin::P_PA2;
+constexpr Pin IN_EXTTRIG_PIN = Pin::P_PA1;
 constexpr Pin OUT_AC_EN_PIN = Pin::P_PA3;
 constexpr Pin OUT_UNMUTE_PIN = Pin::P_PA6;
 constexpr Pin OUT_TRIG_PIN = Pin::P_PA7;
@@ -24,7 +24,7 @@ constexpr Pin OUT_TRIG_PIN = Pin::P_PA7;
 #endif
 
 // Delay configuration
-constexpr uint32_t D_AC_DETECT_TIME = 1000;
+constexpr uint32_t D_AC_DETECT_TIME = 100;
 constexpr uint32_t D_AC_EN_OFF_TIME = 1000;
 constexpr uint32_t D_EXTTRIG_TIME = 10000;
 constexpr uint32_t D_AC_OK_TIME = 2000;
@@ -51,6 +51,10 @@ int main()
   SignalDelay d_exttrig_ok(D_EXTTRIG_TIME, DelayType::RISING);
   SignalDelay d_ac_ok(D_AC_OK_TIME, DelayType::RISING);
   SignalDelay d_trig_out(D_TRIG_OUT_TIME, DelayType::RISING);
+
+  uint32_t start = millis();
+
+  bool val = true;
 
   // Main loop
   while (true)

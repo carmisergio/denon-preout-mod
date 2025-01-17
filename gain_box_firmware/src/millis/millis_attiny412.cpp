@@ -14,17 +14,20 @@ void millis_init()
 {
     millis_count = 0;
 
+    // Disable interrupts
+    cli();
+
     // Reset timer count
-    TCA0_SINGLE_CNT = 0;
+    // TCA0_SINGLE_CNT = 0;
 
     // Set compare count so 1 compare per ms
     TCA0_SINGLE_PER = (F_CPU / PRESCALER) / 1000 - 1;
 
-    // Enable interrupts
-    TCA0_SINGLE_INTCTRL = TCA_SINGLE_OVF_bm;
-
     // Normal mode
     TCA0_SINGLE_CTRLA = TCA_SINGLE_ENABLE_bm | PRESCALER_FLAGS;
+
+    // Enable interrupts
+    TCA0_SINGLE_INTCTRL = TCA_SINGLE_OVF_bm;
 
     // Enable global interrupts
     sei();
@@ -44,6 +47,8 @@ uint32_t millis()
 
 ISR(TCA0_OVF_vect)
 {
+    // Clear interrupt flag
+    TCA0.SINGLE.INTFLAGS = TCA_SINGLE_OVF_bm;
     millis_count++;
 }
 
